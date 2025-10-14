@@ -4,11 +4,11 @@
 </div>
 
 
-<ol>
+<ul>
   <li>Gustavo Carelli Pinton</li>
   <li>Gabriel de Camargo Miranda</li>
   <li>João Pedro Fonseca</li>
   <li>Dhiogo Henrique Lima</li>
-</ol>
+</ul>
 
 
