@@ -1,0 +1,7 @@
+13/10/2025 - Segunda-feira (Gabriel)
+
+Hoje realizei uma série de atualizações importantes no repositório do projeto. 
+Foram criadas novas pastas para melhor organização dos arquivos e implementada a estrutura inicial do site. 
+Atualizei o arquivo README.md com informações relevantes sobre o projeto, desenvolvi a primeira página (index.html). 
+Também, realizei a indexação das imagens necessárias. 
+Além disso, foi criada a pasta CSS, destinada aos arquivos de estilização que serão utilizados nas próximas etapas do desenvolvimento.
