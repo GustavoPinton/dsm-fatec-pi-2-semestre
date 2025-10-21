@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes - Sistema Farmácia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/clientes.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- CABEÇALHO -->
+    <header class="bg-light shadow-sm py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="./Imagens/farmacia.jpg" alt="logo" class="rounded-circle me-3" style="width: 65px; height: 65px;">
+                <p class="fw-bold text-danger m-0">CLIENTES</p>
+            </div>
+            <nav class="d-flex gap-3">
+                <a href="./login.html" class="btn btn-danger rounded-pill fw-bold">Sair</a>
+                <a href="./nf.html" class="btn btn-danger rounded-pill fw-bold">NF</a>
+                <a href="./estoque.html" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
+                <a href="./clientes.html" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
+                <a href="./vendas.html" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- LINHA PRETA -->
+    <div class="bg-dark" style="height: 8px;"></div>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container my-5 flex-grow-1">
+        <h1 class="text-center fw-bold mb-4" style="font-family: Georgia, serif;">Lista de Clientes</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>CPF</th>
+                        <th>Nome</th>
+                        <th>Idade</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>123.456.789-00</td>
+                        <td>João Silva</td>
+                        <td>35</td>
+                        <td>(11) 98765-4321</td>
+                        <td>Rua das Flores, 123</td>
+                    </tr>
+                    <tr>
+                        <td>987.654.321-00</td>
+                        <td>Maria Oliveira</td>
+                        <td>28</td>
+                        <td>(21) 99876-5432</td>
+                        <td>Avenida Brasil, 456</td>
+                    </tr>
+                    <tr>
+                        <td>456.789.123-00</td>
+                        <td>Carlos Santos</td>
+                        <td>42</td>
+                        <td>(31) 91234-5678</td>
+                        <td>Rua do Sol, 789</td>
+                    </tr>
+                    <tr>
+                        <td>321.654.987-00</td>
+                        <td>Ana Costa</td>
+                        <td>30</td>
+                        <td>(41) 93456-7890</td>
+                        <td>Praça Central, 101</td>
+                    </tr>
+                    <tr>
+                        <td>789.123.456-00</td>
+                        <td>Pedro Lima</td>
+                        <td>50</td>
+                        <td>(51) 94567-8901</td>
+                        <td>Alameda das Palmeiras, 202</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            &copy; Farmacia São João 2025. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
