@@ -50,6 +50,16 @@ body {
    .btn-custom:hover {
     background-color: #b82118;
    }
+
+   .Produto-Novo {
+    background-color: #b82118;
+    margin-left: 72em;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+   }
+
    /* ====== LINHA PRETA ====== */
    .linha-preta {
     background-color: black;

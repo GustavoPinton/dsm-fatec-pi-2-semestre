@@ -3,7 +3,7 @@
 body {
     background-color: #e0e0e2;
     background-size: 1600px 800px;
-    padding-top: 100px;
+    padding-top: 300px;
 }
 
 .login {
@@ -12,11 +12,15 @@ body {
     background-color: #a6a6a6;
     
     margin: auto;
-    padding-top: 10px;
+    padding-top: 10 px;
     
     height: 550px;
     width: 400px;
 
+}
+
+.login h1 {
+    padding-top: 50px;
 }
 
 .login img {
