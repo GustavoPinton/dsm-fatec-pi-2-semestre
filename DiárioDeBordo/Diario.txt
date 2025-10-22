@@ -6,8 +6,19 @@ Atualizei o arquivo README.md com informações relevantes sobre o projeto, dese
 Também, realizei a indexação das imagens necessárias. 
 Além disso, foi criada a pasta CSS, destinada aos arquivos de estilização que serão utilizados nas próximas etapas do desenvolvimento.
 
+------------------------------------------
+
 20/10/2025 - Segunda-feira (Dhiogo)
 
 Hoje foi finalizado o primeiro protótipo das páginas HTML e CSS do sistema interno.
 Foram criadas novas pastas para os arquivos HTML e CSS.
 Atualização realizada no arquivo Diário de Bordo, além dos arquivos HTML e CSS.
+
+------------------------------------------
+
+21/10/2025 - Terça-feira (Gabriel)
+
+Hoje realizei uma análise detalhada dos sites desenvolvidos pelo Dhiogo e implementei novos designs para aprimorar a experiência visual. 
+Além disso, participei de uma discussão sobre a criação de uma nova página de Frente de Caixa, destinada à gestão de saída de produtos. 
+Também atualizei o arquivo Read.me, adicionando informações mais completas e detalhadas sobre o projeto, 
+tornando-o mais claro e atrativo para os leitores interessados em conhecer melhor nosso trabalho.
