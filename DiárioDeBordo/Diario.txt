@@ -14,6 +14,7 @@ Hoje foi desenvolvido um banco de dados próprio para a farmácia, com o objetiv
 
 Além da modelagem e criação das tabelas, foram inseridos dados de teste para validação da estrutura e análise do comportamento do banco em situações simuladas de uso real. Essa etapa permitiu avaliar a consistência das relações entre as tabelas e o desempenho das consultas, garantindo uma base sólida para futuras implementações e integrações com o sistema de gestão da farmácia.
 
+------------------------------------------
 
 20/10/2025 - Segunda-feira (Dhiogo)
 
