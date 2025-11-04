@@ -30,3 +30,14 @@ Hoje realizei uma análise detalhada dos sites desenvolvidos pelo Dhiogo e imple
 Além disso, participei de uma discussão sobre a criação de uma nova página de Frente de Caixa, destinada à gestão de saída de produtos. 
 Também atualizei o arquivo Read.me, adicionando informações mais completas e detalhadas sobre o projeto, 
 tornando-o mais claro e atrativo para os leitores interessados em conhecer melhor nosso trabalho.
+
+------------------------------------------
+
+03/11/2025 - Segunda-feira (Gabriel)
+
+Hoje iniciei oficialmente o desenvolvimento da camada PHP do projeto. 
+Foram implementados os arquivos responsáveis pela conexão com o banco de dados, bem como criadas as páginas vendas e itens_vendas.
+
+Realizei também ajustes na página vendas.html, 
+integrando o back-end e adicionando as tabelas vinculadas ao banco de dados disponibilizado pelo João. 
+Além disso, foi desenvolvida a página itens_venda, que permite a consulta das vendas com base nos itens comercializados.
