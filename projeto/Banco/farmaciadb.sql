@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS farmacia_db;
-USE farmacia_db;
+CREATE DATABASE IF NOT EXISTS farmaciadb;
+USE farmaciadb;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -56,13 +56,7 @@ INSERT INTO `itensvenda` (`id_item`, `id_venda`, `id_medicamento`, `quantidade`,
 (9, 52, 52, 1, 19.99),
 (10, 53, 53, 1, 25.00),
 (11, 54, 54, 1, 60.00),
-(12, 54, 50, 1, 5.99),
-(13, 50, 50, 2, 8.50),
-(14, 51, 51, 2, 15.00),
-(15, 52, 52, 1, 19.99),
-(16, 53, 53, 1, 25.00),
-(17, 54, 54, 1, 60.00),
-(18, 54, 50, 1, 5.99);
+(12, 54, 50, 1, 5.99);
 
 
 CREATE TABLE `medicamento` (
