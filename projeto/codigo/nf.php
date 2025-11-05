@@ -16,11 +16,11 @@
                 <p class="fw-bold text-danger m-0">NOTAS FISCAIS</p>
             </div>
             <nav class="d-flex gap-3">
-                <a href="./login.html" class="btn btn-danger rounded-pill fw-bold">Sair</a>
-                <a href="./nf.html" class="btn btn-danger rounded-pill fw-bold">NF</a>
-                <a href="./estoque.html" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
-                <a href="./clientes.html" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
-                <a href="./vendas.html" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
+                <a href="../codigo/login.html" class="btn btn-danger rounded-pill fw-bold">Sair</a>
+                <a href="../codigo/nf.php" class="btn btn-danger rounded-pill fw-bold">NF</a>
+                <a href="../codigo/estoque.php" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
+                <a href="../codigo/clientes.php" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
+                <a href="../codigo/vendas.php" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
             </nav>
         </div>
     </header>

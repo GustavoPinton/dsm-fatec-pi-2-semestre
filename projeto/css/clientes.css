@@ -51,13 +51,14 @@ body {
     background-color: #b82118;
    }
 
-   .Cliente-Novo {
-    background-color: #b82118;
+   .Cliente-Novo  {
+    background-color: #b31b1b;  
     margin-left: 72em;
     color: white;
     border-radius: 30px;
     height: 50px;
     width: 150px;
+    text-decoration: none;
    }
 
    /* ====== LINHA PRETA ====== */

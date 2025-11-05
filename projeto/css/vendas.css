@@ -116,6 +116,12 @@ body {
     text-align: center;
 }
 
+form {
+    padding-left: 30%;
+}
+
+
+
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
     .header {

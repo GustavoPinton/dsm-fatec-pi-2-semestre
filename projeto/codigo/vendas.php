@@ -39,11 +39,11 @@ $result = $conn->query($sql);
             <p class="fw-bold text-danger m-0">CONTROLE DE VENDAS</p>
         </div>
         <nav class="d-flex gap-3">
-            <a href="./login.html" class="btn btn-danger rounded-pill fw-bold">Sair</a>
-            <a href="./nf.php" class="btn btn-danger rounded-pill fw-bold">NF</a>
-            <a href="./estoque.php" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
-            <a href="./clientes.php" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
-            <a href="./vendas.php" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
+        <a href="../codigo/login.html" class="btn btn-danger rounded-pill fw-bold">Sair</a>
+                <a href="../codigo/nf.php" class="btn btn-danger rounded-pill fw-bold">NF</a>
+                <a href="../codigo/estoque.php" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
+                <a href="../codigo/clientes.php" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
+                <a href="../codigo/vendas.php" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
         </nav>
     </div>
 </header>
@@ -60,8 +60,8 @@ $result = $conn->query($sql);
                     <th>ID Venda</th>
                     <th>Data</th>
                     <th>Cliente</th>
-                    <th>Total (R$)</th>
-                    <th>Ações</th>
+                    <th colspan='2'>Total (R$)</th>
+                    
 
                 </tr>
             </thead>
@@ -77,8 +77,8 @@ $result = $conn->query($sql);
                     <td>
 <form action="itensvenda.php" method="GET">
     <input type="hidden" name="id_venda" value="<?= $v['id_venda']; ?>">
-    <button type="submit" style="padding:5px 10px; border-radius:5px; background:#007bff; color:white; border:none; cursor:pointer;">
-        Ver Itens
+    <button class='VisualizarVenda' type="submit" style="padding:5px 10px; border-radius:5px; background:#007bff; color:white; border:none; cursor:pointer;">
+        Visualizar
     </button>
 </form>
 </td>
