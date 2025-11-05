@@ -41,3 +41,9 @@ Foram implementados os arquivos responsáveis pela conexão com o banco de dados
 Realizei também ajustes na página vendas.html, 
 integrando o back-end e adicionando as tabelas vinculadas ao banco de dados disponibilizado pelo João. 
 Além disso, foi desenvolvida a página itens_venda, que permite a consulta das vendas com base nos itens comercializados.
+
+------------------------------------------
+
+04/11/2025 - Terça-feira (Gabriel)
+
+Hoje criei a página cadastrocliente.php, e implementei alguns comandos de design trocando alguns comandos de link (<a>) por comandos em JavaScript
