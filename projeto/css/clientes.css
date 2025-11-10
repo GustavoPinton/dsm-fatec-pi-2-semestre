@@ -61,6 +61,34 @@ body {
     text-decoration: none;
    }
 
+   /* Mensagem flutuante */
+.fade-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2000;
+    opacity: 1;
+    transition: opacity 1s ease;
+    text-align: center;
+    min-width: 250px;
+}
+
+/* Mensagem de sucesso */
+.fade-message.success {
+    background-color: #198754;
+}
+
+/* Mensagem de erro */
+.fade-message.error {
+    background-color: #dc3545;
+}
+
+
    /* ====== LINHA PRETA ====== */
    .linha-preta {
     background-color: black;

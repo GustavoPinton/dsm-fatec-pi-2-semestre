@@ -47,3 +47,12 @@ Além disso, foi desenvolvida a página itens_venda, que permite a consulta das 
 04/11/2025 - Terça-feira (Gabriel)
 
 Hoje criei a página cadastrocliente.php, e implementei alguns comandos de design trocando alguns comandos de link (<a>) por comandos em JavaScript
+
+------------------------------------------
+
+09/11/2025 - Domingo (João)
+
+realizando a conexão do banco de dados com os módulos de clientes e estoque. 
+Implementei as funções de editar e excluir registros em ambos os módulos, garantindo maior flexibilidade no gerenciamento de dados. 
+No módulo de clientes, a edição agora inclui validação de CPF e telefone, permitindo alterações apenas quando os dados estão no formato correto, 
+aumentando a confiabilidade do sistema.
