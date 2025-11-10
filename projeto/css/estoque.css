@@ -7,37 +7,38 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        margin: 0;
-   }
-   /* ====== CABEÇALHO ====== */
-   .header {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ====== CABEÇALHO ====== */
+.header {
     background-color: #cfd1d4;
     height: 70px;
-   }
-   /* Logo circular */
-   .logo-container {
+}
+/* Logo circular */
+.logo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   }
-   .logo {
+}
+.logo {
     width: 65px;
     height: 65px;
     border-radius: 50%;
     background-color: white;
     padding: 5px;
-   }
-   .farmacia-text {
+}
+.farmacia-text {
     font-size: 0.8rem;
     color: #b31b1b;
     font-weight: bold;
     letter-spacing: 1px;
-   }
-   /* ====== BOTÕES ====== */
-   .btn-custom {
+}
+
+/* ====== BOTÕES ====== */
+.btn-custom {
     background-color: #d9382b;
     color: white;
     border-radius: 30px;
@@ -46,65 +47,69 @@ body {
     padding: 8px 35px;
     border: 2px solid #9e1c1c;
     transition: 0.2s;
-   }
-   .btn-custom:hover {
+}
+.btn-custom:hover {
     background-color: #b82118;
-   }
+}
 
-   .Produto-Novo {
+.Produto-Novo {
     background-color: #b82118;
     margin-left: 72em;
     color: white;
     border-radius: 30px;
     height: 50px;
     width: 150px;
-   }
+}
 
-   /* ====== LINHA PRETA ====== */
-   .linha-preta {
+/* ====== LINHA PRETA ====== */
+.linha-preta {
     background-color: black;
     height: 8px;
     width: 100%;
-   }
-   /* ====== CONTEÚDO PRINCIPAL ====== */
-   .conteudo {
+}
+
+/* ====== CONTEÚDO PRINCIPAL ====== */
+.conteudo {
     width: 80%;
     padding: 100px 20px;
     position: relative;
     overflow: hidden;
     align-items: center;
-   }
-   /* ====== MOLDURA ====== */
-   .moldura {
+}
+
+/* ====== MOLDURA ====== */
+.moldura {
     padding: 40px 60px;
     border: 2px solid transparent;
     position: relative;
-   }
-   .moldura::before,
-   .moldura::after {
+}
+.moldura::before,
+.moldura::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
     border: 3px solid black;
-   }
-   .moldura::before {
+}
+.moldura::before {
     top: -10px;
     left: -10px;
-   }
-   .moldura::after {
+}
+.moldura::after {
     bottom: -10px;
     right: -10px;
-   }
-   /* ====== TÍTULO ====== */
-   .titulo {
+}
+
+/* ====== TÍTULO ====== */
+.titulo {
     font-family: 'Georgia', serif;
     font-size: 2.8rem;
     font-weight: bold;
     color: #111;
-   }
-   /* ====== TRIÂNGULO INFERIOR ====== */
-   .triangulo {
+}
+
+/* ====== TRIÂNGULO INFERIOR ====== */
+.triangulo {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -112,18 +117,57 @@ body {
     height: 200px;
     background-color: #2c2c2c;
     clip-path: polygon(0 100%, 100% 100%, 100% 0);
-   }
-    /* ====== FOOTER ====== */
-    
-    
-    main {
-        flex: 1;
+}
+
+/* ====== FOOTER ====== */
+main {
+    flex: 1;
+}
+.footer {
+    background-color: #2c2c2c;
+    max-width: 100%;
+    padding: 1px;
+    color: white;
+    text-align: center;
+}
+
+/* ====== MENSAGEM CENTRALIZADA ====== */
+.fade-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    z-index: 2000;
+    opacity: 1;
+    transition: opacity 1s ease;
+    text-align: center;
+    min-width: 250px;
+}
+.fade-message.success { background-color: #198754; }
+.fade-message.error { background-color: #dc3545; }
+
+/* ====== TABELA ====== */
+table {
+    background-color: white;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* ====== RESPONSIVO ====== */
+@media (max-width: 768px) {
+    .btn-custom, .Produto-Novo {
+        margin-left: 0 !important;
+        padding: 6px 20px;
     }
-    
-    .footer {
-        background-color: #2c2c2c;
-        max-width: 100%;
-        padding: 1px;
-        color: white;
-        text-align: center;
+}
+@media (max-width: 480px) {
+    .btn-custom, .Produto-Novo {
+        padding: 5px 15px;
+        font-size: 0.8rem;
     }
+}
