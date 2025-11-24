@@ -25,7 +25,7 @@
 
 #### Logo
   
-![Farmarcia](projeto/Imagens/FarmaciaEditada.jpg)
+![Farmarcia](projeto/Imagens/farmacia-logo.png)
 
 
 <br>
