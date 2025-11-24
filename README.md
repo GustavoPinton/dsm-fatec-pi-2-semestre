@@ -25,8 +25,7 @@
 
 #### Logo
   
-![Farmarcia](projeto/Imagens/farmacia-logo.png)
-
+<img src="projeto/Imagens/FarmaciaLogo.png" width="250px" />
 
 <br>
 
