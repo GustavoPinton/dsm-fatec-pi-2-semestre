@@ -7,7 +7,7 @@ $pass = '';
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $pdo->query("SELECT * FROM medicamento WHERE ativo = 1");
+    $stmt = $pdo->query("SELECT * FROM medicamento");
     $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
     die("Erro de conexão: " . $e->getMessage());
@@ -37,6 +37,7 @@ try {
             <a href="../codigo/nf.php" class="btn btn-danger rounded-pill fw-bold">NF</a>
             <a href="../codigo/estoque.php" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
             <a href="../codigo/clientes.php" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
+            <a href="../codigo/frente_de_caixa.php" class="btn btn-danger rounded-pill fw-bold">PDV</a>
             <a href="../codigo/vendas.php" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
         </nav>
     </div>

@@ -20,6 +20,7 @@
                 <a href="../codigo/nf.php" class="btn btn-danger rounded-pill fw-bold">NF</a>
                 <a href="../codigo/estoque.php" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
                 <a href="../codigo/clientes.php" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
+                <a href="../codigo/frente_de_caixa.php" class="btn btn-danger rounded-pill fw-bold">PDV</a>
                 <a href="../codigo/vendas.php" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
             </nav>
         </div>
