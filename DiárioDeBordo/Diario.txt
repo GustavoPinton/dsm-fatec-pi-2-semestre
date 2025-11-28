@@ -56,3 +56,14 @@ realizando a conexão do banco de dados com os módulos de clientes e estoque.
 Implementei as funções de editar e excluir registros em ambos os módulos, garantindo maior flexibilidade no gerenciamento de dados. 
 No módulo de clientes, a edição agora inclui validação de CPF e telefone, permitindo alterações apenas quando os dados estão no formato correto, 
 aumentando a confiabilidade do sistema.
+
+------------------------------------------
+
+27/11/2025 - Quinta-feira (Gabriel)
+
+Hoje realizei melhorias importantes no arquivo vendas.php, tornando-o mais completo e eficiente. 
+Foram adicionados os botões de edição e exclusão, permitindo que ajustes nas vendas sejam feitos de forma rápida e prática. 
+Essa atualização facilita situações em que o vendedor precise corrigir informações ou adicionar itens que possam ter sido esquecidos, 
+tornando o processo mais ágil e confiável.
+
+------------------------------------------
