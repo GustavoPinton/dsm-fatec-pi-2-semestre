@@ -74,16 +74,6 @@ while ($v = $result->fetch_assoc()) { ?>
 <button class="btn-acao">👁</button>
 </form>
 
-<button class="btn-acao"
-data-bs-toggle="modal"
-data-bs-target="#editarVendaModal"
-data-id="<?= $v['id_venda'] ?>"
-data-cliente="<?= $v['id_cliente'] ?>"
-data-data="<?= $v['data'] ?>"
-data-total="<?= $v['total'] ?>">
-✎
-</button>
-
 <button class="btn-acao btn-excluir" data-id="<?= $v['id_venda'] ?>">🗑</button>
 
 </td>
@@ -102,50 +92,15 @@ data-total="<?= $v['total'] ?>">
 <div class="container">&copy; Farmacia São João 2025</div>
 </footer>
 
-<div class="modal fade" id="editarVendaModal" tabindex="-1">
-<div class="modal-dialog">
-<div class="modal-content">
-<form id="form-editar-venda" action="Editar_Excluir/editar_venda.php" method="POST">
-<div class="modal-header bg-danger text-white">
-<h5 class="modal-title">Editar Venda</h5>
-<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-</div>
-<div class="modal-body">
 
-<input type="hidden" name="id_venda" id="edit-id-venda">
 
-<label class="form-label">Cliente</label>
-<input type="number" name="id_cliente" id="edit-cliente" class="form-control mb-3" required>
-
-<label class="form-label">Data</label>
-<input type="datetime-local" name="data" id="edit-data" class="form-control mb-3" required>
-
-<label class="form-label">Total (R$)</label>
-<input type="text" name="total" id="edit-total" class="form-control mb-3" required>
-
-</div>
-<div class="modal-footer">
-<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-<button type="submit" class="btn btn-danger">Salvar</button>
-</div>
-</form>
-</div>
-</div>
-</div>
 
 <div id="mensagem" class="fade-message d-none"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
-const modal = document.getElementById('editarVendaModal');
-modal.addEventListener('show.bs.modal', event => {
-const button = event.relatedTarget;
-document.getElementById('edit-id-venda').value = button.getAttribute('data-id');
-document.getElementById('edit-cliente').value = button.getAttribute('data-cliente');
-document.getElementById('edit-data').value = button.getAttribute('data-data');
-document.getElementById('edit-total').value = button.getAttribute('data-total');
-});
+
 
 document.querySelectorAll('.btn-excluir').forEach(btn => {
 btn.addEventListener('click', function(){

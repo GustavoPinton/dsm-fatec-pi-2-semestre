@@ -66,7 +66,7 @@ $itens = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </tbody>
     </table>
 
-    <a href="./vendas.php" class="btn btn-secondary mt-3">⬅ Voltar</a>
+    <a href="./vendas.php" class="btn btn-secondary mt-3">Voltar</a>
 
 </div>
 
