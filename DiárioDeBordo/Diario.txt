@@ -67,3 +67,12 @@ Essa atualização facilita situações em que o vendedor precise corrigir infor
 tornando o processo mais ágil e confiável.
 
 ------------------------------------------
+
+29/11/2025 - Sábado (Gabriel)
+
+Hoje, após uma conversa detalhada sobre as mudanças anteriores (relacionado a vendas.php)
+retiramos a função de edição da venda e permanecemos apenas com a função de exclusão, 
+essa conversa teve como embate se realmente poderia ser necessário ou não o botão edição.
+
+------------------------------------------
+
