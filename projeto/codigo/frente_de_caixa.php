@@ -180,7 +180,7 @@ foreach ($_SESSION["carrinho"] as $i) {
     $total += $i["preco"] * $i["qtd"];
 }
 ?>
-
+//
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
