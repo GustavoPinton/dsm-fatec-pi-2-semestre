@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Fiscais - Sistema Farmácia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/nf.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- CABEÇALHO -->
+    <header class="bg-light shadow-sm py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="../Imagens/farmacia.jpg" alt="logo" class="rounded-circle me-3" style="width: 65px; height: 65px;">
+                <p class="fw-bold text-danger m-0">NOTAS FISCAIS</p>
+            </div>
+            <nav class="d-flex gap-3">
+                <a href="../codigo/login.html" class="btn btn-danger rounded-pill fw-bold">Sair</a>
+                <a href="../codigo/nf.php" class="btn btn-danger rounded-pill fw-bold">NF</a>
+                <a href="../codigo/estoque.php" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
+                <a href="../codigo/clientes.php" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
+                <a href="../codigo/frente_de_caixa.php" class="btn btn-danger rounded-pill fw-bold">PDV</a>
+                <a href="../codigo/vendas.php" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- LINHA PRETA -->
+    <div class="bg-dark" style="height: 8px;"></div>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container my-5 flex-grow-1">
+        <h1 class="text-center fw-bold mb-4" style="font-family: Georgia, serif;">Controle de Notas Fiscais</h1>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Número NF</th>
+                        <th>Data de Emissão</th>
+                        <th>Comprador</th>
+                        <th>Vendedor</th>
+                        <th>Valor Total (R$)</th>
+                        <th>Impostos (R$)</th>
+                        <th>DANFE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0001</td>
+                        <td>01/10/2023</td>
+                        <td>João Silva</td>
+                        <td>Farmácia São João</td>
+                        <td>150,00</td>
+                        <td>15,00</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>0002</td>
+                        <td>02/10/2023</td>
+                        <td>Maria Oliveira</td>
+                        <td>Farmácia São João</td>
+                        <td>200,00</td>
+                        <td>20,00</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>0003</td>
+                        <td>03/10/2023</td>
+                        <td>Carlos Santos</td>
+                        <td>Farmácia São João</td>
+                        <td>300,00</td>
+                        <td>30,00</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>0004</td>
+                        <td>04/10/2023</td>
+                        <td>Ana Costa</td>
+                        <td>Farmácia São João</td>
+                        <td>250,00</td>
+                        <td>25,00</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td>0005</td>
+                        <td>05/10/2023</td>
+                        <td>Pedro Lima</td>
+                        <td>Farmácia São João</td>
+                        <td>100,00</td>
+                        <td>10,00</td>
+                        <td><a href="#" class="btn btn-primary btn-sm">Visualizar</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            &copy; Farmacia São João 2025. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

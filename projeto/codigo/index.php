@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Farmácia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- CABEÇALHO -->
+    <header class="bg-light shadow-sm py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="../Imagens/farmacia.jpg" alt="logo" class="rounded-circle me-3" style="width: 65px; height: 65px;">
+                <p class="fw-bold text-danger m-0">FARMÁCIA</p>
+            </div>
+            <nav class="navbar navbar-expand-lg d-flex gap-3">
+                <a href="../codigo/login.html" class="btn btn-danger rounded-pill fw-bold">Sair</a>
+                <a href="../codigo/nf.php" class="btn btn-danger rounded-pill fw-bold">NF</a>
+                <a href="../codigo/estoque.php" class="btn btn-danger rounded-pill fw-bold">Estoque</a>
+                <a href="../codigo/clientes.php" class="btn btn-danger rounded-pill fw-bold">Clientes</a>
+                <a href="../codigo/frente_de_caixa.php" class="btn btn-danger rounded-pill fw-bold">PDV</a>
+                <a href="../codigo/vendas.php" class="btn btn-danger rounded-pill fw-bold">Vendas</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- LINHA PRETA -->
+    <div class="bg-dark" style="height: 8px;"></div>
+
+    <hr>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="container text-center my-5 flex-grow-1">
+        <div class="border border-3 border-dark p-5 position-relative d-inline-block">
+            <h1 class="fw-bold" style="font-family: Georgia, serif;">Bem vindo ao sistema!<br>
+                Farmacia São João!
+            </h1>
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+        <div class="container">
+            &copy; Farmacia São João 2025. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

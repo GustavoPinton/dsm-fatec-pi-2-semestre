@@ -1,0 +1,91 @@
+13/10/2025 - Segunda-feira (Gabriel)
+
+Hoje realizei uma série de atualizações importantes no repositório do projeto. 
+Foram criadas novas pastas para melhor organização dos arquivos e implementada a estrutura inicial do site. 
+Atualizei o arquivo README.md com informações relevantes sobre o projeto, desenvolvi a primeira página (index.html). 
+Também, realizei a indexação das imagens necessárias. 
+Além disso, foi criada a pasta CSS, destinada aos arquivos de estilização que serão utilizados nas próximas etapas do desenvolvimento.
+
+------------------------------------------
+
+18/10/2025 - Sábado (João)
+
+Hoje foi desenvolvido um banco de dados próprio para a farmácia, com o objetivo de organizar e otimizar o armazenamento das informações operacionais. O sistema foi estruturado em tabelas separadas para as principais entidades do negócio: Cliente, Remédio, Itens Vendidos, Funcionário e Venda.
+
+Além da modelagem e criação das tabelas, foram inseridos dados de teste para validação da estrutura e análise do comportamento do banco em situações simuladas de uso real. Essa etapa permitiu avaliar a consistência das relações entre as tabelas e o desempenho das consultas, garantindo uma base sólida para futuras implementações e integrações com o sistema de gestão da farmácia.
+
+------------------------------------------
+
+20/10/2025 - Segunda-feira (Dhiogo)
+
+Hoje foi finalizado o primeiro protótipo das páginas HTML e CSS do sistema interno.
+Foram criadas novas pastas para os arquivos HTML e CSS.
+Atualização realizada no arquivo Diário de Bordo, além dos arquivos HTML e CSS.
+
+------------------------------------------
+
+21/10/2025 - Terça-feira (Gabriel)
+
+Hoje realizei uma análise detalhada dos sites desenvolvidos pelo Dhiogo e implementei novos designs para aprimorar a experiência visual. 
+Além disso, participei de uma discussão sobre a criação de uma nova página de Frente de Caixa, destinada à gestão de saída de produtos. 
+Também atualizei o arquivo Read.me, adicionando informações mais completas e detalhadas sobre o projeto, 
+tornando-o mais claro e atrativo para os leitores interessados em conhecer melhor nosso trabalho.
+
+------------------------------------------
+
+03/11/2025 - Segunda-feira (Gabriel)
+
+Hoje iniciei oficialmente o desenvolvimento da camada PHP do projeto. 
+Foram implementados os arquivos responsáveis pela conexão com o banco de dados, bem como criadas as páginas vendas e itens_vendas.
+
+Realizei também ajustes na página vendas.html, 
+integrando o back-end e adicionando as tabelas vinculadas ao banco de dados disponibilizado pelo João. 
+Além disso, foi desenvolvida a página itens_venda, que permite a consulta das vendas com base nos itens comercializados.
+
+------------------------------------------
+
+04/11/2025 - Terça-feira (Gabriel)
+
+Hoje criei a página cadastrocliente.php, e implementei alguns comandos de design trocando alguns comandos de link (<a>) por comandos em JavaScript
+
+------------------------------------------
+
+09/11/2025 - Domingo (João)
+
+realizando a conexão do banco de dados com os módulos de clientes e estoque. 
+Implementei as funções de editar e excluir registros em ambos os módulos, garantindo maior flexibilidade no gerenciamento de dados. 
+No módulo de clientes, a edição agora inclui validação de CPF e telefone, permitindo alterações apenas quando os dados estão no formato correto, 
+aumentando a confiabilidade do sistema.
+
+------------------------------------------
+
+27/11/2025 - Quinta-feira (Gabriel)
+
+Hoje realizei melhorias importantes no arquivo vendas.php, tornando-o mais completo e eficiente. 
+Foram adicionados os botões de edição e exclusão, permitindo que ajustes nas vendas sejam feitos de forma rápida e prática. 
+Essa atualização facilita situações em que o vendedor precise corrigir informações ou adicionar itens que possam ter sido esquecidos, 
+tornando o processo mais ágil e confiável.
+
+------------------------------------------
+
+29/11/2025 - Sábado (Gabriel)
+
+Hoje, após uma conversa detalhada sobre as mudanças anteriores (relacionado a vendas.php)
+retiramos a função de edição da venda e permanecemos apenas com a função de exclusão, 
+essa conversa teve como embate se realmente poderia ser necessário ou não o botão edição.
+
+------------------------------------------
+
+30/11/2025 – Domingo (João)
+
+Hoje implementei melhorias estruturais no banco de dados para apoiar futuras evoluções do sistema,
+ sem alterar o funcionamento atual do código PHP. Foram criadas novas tabelas internas de configuração e auditoria do sistema, 
+ além de uma trigger que registra automaticamente cada venda realizada, permitindo maior controle e histórico das operações.
+
+Também desenvolvi um procedimento para registrar vendas completas de forma centralizada no banco e 
+uma função que calcula automaticamente o total gasto por cada cliente.
+ As novas funcionalidades foram configuradas de forma segura, 
+ mantendo a baixa automática de estoque desativada por padrão para evitar qualquer conflito com o sistema existente.
+
+ ------------------------------------------
+

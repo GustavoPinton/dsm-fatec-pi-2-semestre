@@ -1,0 +1,42 @@
+body {
+background-image: url(../Imagens/login.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-acao {
+background-color: #d9382b;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 4px 8px;
+font-size: .875rem;
+font-weight: bold;
+height: 32px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+.btn-acao:hover {
+background-color: #b82118;
+}
+
+.fade-message {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px 30px;
+background: #dc3545;
+color: white;
+border-radius: 10px;
+font-weight: bold;
+z-index: 2000;
+opacity: 1;
+transition: opacity 1s ease;
+}
+.fade-message.success { background:#198754 }
+.fade-message.error { background:#dc3545 }
+.d-none { display:none }
